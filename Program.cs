@@ -36,7 +36,7 @@ class Bot
 
     public static void RunBot()
     {
-        client = new TelegramBotClient("1674625177:AAFyt68T5RjX0JTCCgjwyMEEgD2nFFX7cdM");
+        client = new TelegramBotClient("SomeToken");
         client.OnMessage += BotOnMessageReceived;
         client.OnMessageEdited += BotOnMessageReceived;
         client.StartReceiving();
